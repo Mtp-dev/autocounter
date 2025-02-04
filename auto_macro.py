@@ -4,7 +4,7 @@ from pynput.keyboard import Controller, Listener, Key
 # Starting number
 counter = 1708
 
-# Keyboard controller
+## Keyboard controller
 keyboard = Controller()
 
 # Flag to control the macro
