@@ -24,7 +24,7 @@ def start_typing():
 def on_press(key):
     global running
     try:
-        if key.char == 's':  # Start typing when 's' is pressed
+        if key.char == 'x':  # Start typing when 's' is pressed
             if not running:
                 print("Starting typing...")
                 start_typing()
